@@ -28,7 +28,8 @@ An agent for small businesses paid from abroad. It matches each incoming payment
 5. **Examples are labelled as examples,** with the arithmetic shown in full.
 6. **Architecture principle:** rules in code make every decision about money. A language model only reads messy text, and its output is checked against the numbers. Outside text can never move money.
 7. **Decisions go in the decision log** as new rows. Never rewrite history.
-8. **Generated files aren't edited by hand:** `docs/05-pain-atlas.md` and everything in `research/data/`. They come from the research export.
+8. **Generated files aren't edited by hand:** `docs/05-pain-atlas.md` and everything in `research/data/` come from the research export. The animated visuals in `assets/` come from `python scripts/build_visuals.py`, which counts its numbers from `research/data/`. Change the script, not the SVG.
+9. **Visual style:** navy ledger background; teal = money that reconciles, amber = credits, coral = money lost on the way, violet = the agent's own work, blue = Airwallex. Keep these meanings consistent in every diagram.
 
 ## Record files (`research/data/`)
 
