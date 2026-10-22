@@ -1,0 +1,374 @@
+{
+ "game_changers": [
+  {
+   "name": "Own local Global Account for each problem customer",
+   "how": "Open a nicknamed Global Account per customer whose payments are ambiguous or SWIFT-short, check the payer's bank can reach it, send the customer a ready bank-change pack, and confirm the switch on the first deposit. Every later deposit is attributed by account, not by name or amount.",
+   "evidence_for": [
+    "L5#12",
+    "L5#16",
+    "L2#10",
+    "L1#22",
+    "L1#20",
+    "L2#8",
+    "L1#26",
+    "L8#3",
+    "L8#17"
+   ],
+   "evidence_against": [
+    "L5#13",
+    "L5#17",
+    "L5#18",
+    "L8#1",
+    "L8#20",
+    "L8#21",
+    "L8#14",
+    "L8#26",
+    "L3#19",
+    "L3#6"
+   ],
+   "honest_verdict": "Works, and the matching half is already native (Dedicated Account per Customer, not available for India-registered businesses). R2R's value is choosing whom to move, checking reachability, preparing the bank-change pack and handling the short and partial payments native matching ignores. Expect days to weeks of delay with corporate payers, and a provider-exit risk."
+  },
+  {
+   "name": "Move USD SWIFT payers onto local rails",
+   "how": "Give payers the local ACH or Fedwire details of a USD Global Account instead of SWIFT details, so no intermediary bank touches the payment.",
+   "evidence_for": [
+    "L5#26",
+    "L5#39",
+    "L1#31",
+    "L2#25",
+    "L7#29",
+    "L6#23",
+    "L5#10"
+   ],
+   "evidence_against": [
+    "L5#17",
+    "L5#18",
+    "L5#24",
+    "L5#27",
+    "L5#28",
+    "L8#1"
+   ],
+   "honest_verdict": "The strongest cause fix for fee-short receipts on USD routes, but it needs a US-region account (an Indian exporter on a Singapore account gets SWIFT only), EU routes are already protected by PSD2, and each gap is small."
+  },
+  {
+   "name": "Complete wire instructions the agent generates",
+   "how": "Issue per-currency payment instructions naming the right intermediary and correspondent, 'do not convert', and a structured invoice reference.",
+   "evidence_for": [
+    "L1#2",
+    "L8#12",
+    "L8#13",
+    "L5#19"
+   ],
+   "evidence_against": [
+    "L5#10",
+    "L5#25",
+    "L8#38",
+    "L8#11"
+   ],
+   "honest_verdict": "Cheap and cause-fixing, but thinly evidenced and OUR is never guaranteed; ship it as part of the short-payment fix."
+  },
+  {
+   "name": "Read Airwallex deposits directly instead of bank feeds",
+   "how": "Match from the Deposits API and webhooks (payer name, bank, account, reference) rather than from the accounting software's bank feed, then post finished matches to Xero.",
+   "evidence_for": [
+    "L1#24",
+    "L1#25",
+    "L1#26",
+    "L1#27",
+    "L2#13",
+    "L2#15",
+    "L2#14"
+   ],
+   "evidence_against": [
+    "L5#0",
+    "L5#1",
+    "L5#22",
+    "L5#2"
+   ],
+   "honest_verdict": "Removes the feed-truncation cause for money that lands on Airwallex, but the reference is still one free-text string, payer fields vary by bank, and there is no sent amount."
+  },
+  {
+   "name": "Prepare India export paperwork at invoice time",
+   "how": "Keep invoice number, SAC code, shipping bill and payment reference identical, give the bank the mapping when money lands, and pre-draft the 'close as bank charges' letter for small gaps.",
+   "evidence_for": [
+    "L4#15",
+    "L4#16",
+    "L4#17",
+    "L4#19",
+    "L6#23",
+    "L6#24",
+    "L6#22"
+   ],
+   "evidence_against": [
+    "L4#10",
+    "L4#12",
+    "L4#46",
+    "L4#47",
+    "L6#21",
+    "L4#28"
+   ],
+   "honest_verdict": "Stops many entries going stale, but closure still needs the bank, the Rs 10 lakh declaration covers many small cases, and the rules are new enough that some pain is transitional."
+  },
+  {
+   "name": "Answer deposit holds with the right documents at once",
+   "how": "On an rfi.action_required webhook linked to a DEPOSIT, attach the matching invoice and contract and draft the answer for approval.",
+   "evidence_for": [
+    "L5#6",
+    "L5#7",
+    "L3#14",
+    "L3#15",
+    "L3#30"
+   ],
+   "evidence_against": [
+    "L3#20",
+    "L3#16",
+    "L3#17",
+    "L3#6"
+   ],
+   "honest_verdict": "Shortens holds but does not prevent them; the hold is Airwallex's compliance decision, and opening fresh accounts for customers may itself trigger first-payment reviews."
+  }
+ ],
+ "doesnt_hurt": [
+  {
+   "id": "A03",
+   "name": "No agreed rule for booking a short payment",
+   "why": "Too small: each accountant sets a booking rule once and repeats it.",
+   "items": [
+    "L1#1",
+    "L1#32",
+    "L1#33",
+    "L1#34",
+    "L6#30",
+    "L7#16",
+    "L7#17"
+   ]
+  },
+  {
+   "id": "A04",
+   "name": "Tiny rounding leftovers and false currency gains",
+   "why": "Too small: cent-level rounding, written off below a threshold.",
+   "items": [
+    "L1#9",
+    "L2#23"
+   ]
+  },
+  {
+   "id": "A05",
+   "name": "Customer's accounts team recalculates the invoice and pays less",
+   "why": "Rare: two sources; fixed once by invoice design.",
+   "items": [
+    "L1#17",
+    "L8#11"
+   ]
+  },
+  {
+   "id": "A07",
+   "name": "Repeat deductions from one upstream mistake",
+   "why": "Rare for small sellers: a large-firm trade-deduction pattern.",
+   "items": [
+    "L6#6",
+    "L6#7",
+    "L6#8",
+    "L6#9"
+   ]
+  },
+  {
+   "id": "A08",
+   "name": "Returned wire comes back minus a fee",
+   "why": "Rare: one thread with a known answer.",
+   "items": [
+    "L1#6"
+   ]
+  },
+  {
+   "id": "A09",
+   "name": "Customer's payment network keeps a fee from each payment",
+   "why": "Rare: US domestic AP network, one thread.",
+   "items": [
+    "L1#8"
+   ]
+  },
+  {
+   "id": "A12",
+   "name": "One payment covering many invoices",
+   "why": "Already solved by FreeAgent, QBO Undeposited Funds and Xero batch deposits.",
+   "items": [
+    "L1#14",
+    "L2#17",
+    "L2#21",
+    "L2#32",
+    "L7#10",
+    "L7#23",
+    "L7#34"
+   ]
+  },
+  {
+   "id": "A14",
+   "name": "Retention held back on invoices",
+   "why": "Rare in segment: domestic construction retention.",
+   "items": [
+    "L1#23"
+   ]
+  },
+  {
+   "id": "A18",
+   "name": "Unidentified cash and old credits age for years",
+   "why": "Rare for small sellers: public bodies and large US firms.",
+   "items": [
+    "L1#3",
+    "L1#13",
+    "L2#35",
+    "L5#38",
+    "L6#0",
+    "L6#1",
+    "L6#26",
+    "L6#27"
+   ]
+  },
+  {
+   "id": "A20",
+   "name": "Credit notes and refunds are hard to match",
+   "why": "Already solved: Xero shipped credit-note matching in March 2026.",
+   "items": [
+    "L1#11",
+    "L2#19",
+    "L7#14",
+    "L7#15",
+    "L7#38"
+   ]
+  },
+  {
+   "id": "A22",
+   "name": "Accounting software computes currency gains wrongly",
+   "why": "Rare: ERP bugs, mostly fixed.",
+   "items": [
+    "L7#0",
+    "L7#1",
+    "L7#2",
+    "L7#8"
+   ]
+  },
+  {
+   "id": "A23",
+   "name": "Platform payouts arrive net of fees and bundled",
+   "why": "Already solved by A2X, Synder and Xero's Stripe app.",
+   "items": [
+    "L1#7",
+    "L2#5",
+    "L2#7",
+    "L2#29",
+    "L2#36",
+    "L5#23",
+    "L7#27",
+    "L7#28",
+    "L7#40"
+   ]
+  },
+  {
+   "id": "A30",
+   "name": "Bank statement imports break or create duplicates",
+   "why": "Rare: open-source importer bugs fixed in days.",
+   "items": [
+    "L7#5",
+    "L7#6",
+    "L7#18",
+    "L7#19",
+    "L7#20",
+    "L7#21",
+    "L7#22",
+    "L7#26",
+    "L7#32"
+   ]
+  },
+  {
+   "id": "A33",
+   "name": "Provider closes the account and strands saved bank details",
+   "why": "Rare (but severe when it happens): one detailed case.",
+   "items": [
+    "L3#17",
+    "L3#19",
+    "L3#27",
+    "L3#32",
+    "L3#33",
+    "L3#44"
+   ]
+  },
+  {
+   "id": "A36",
+   "name": "Reserves and settlement holds make received cash unusable",
+   "why": "Rare and out of scope: card and wallet reserves.",
+   "items": [
+    "L3#9",
+    "L3#10",
+    "L3#11",
+    "L3#12",
+    "L3#29",
+    "L3#42",
+    "L3#43"
+   ]
+  },
+  {
+   "id": "A37",
+   "name": "Cash forecast assumes invoices are paid on the due date",
+   "why": "Already solved: 2026 behaviour-based forecasting.",
+   "items": [
+    "L2#22",
+    "L7#33"
+   ]
+  },
+  {
+   "id": "A41",
+   "name": "Fake bank-detail emails divert the seller's money",
+   "why": "Rare on the seller side and falling; the loss mostly falls on the payer.",
+   "items": [
+    "L5#36",
+    "L8#4",
+    "L8#5",
+    "L8#6",
+    "L8#7",
+    "L8#27",
+    "L8#28",
+    "L8#29",
+    "L8#30",
+    "L8#31",
+    "L8#32"
+   ]
+  },
+  {
+   "id": "A42",
+   "name": "Payment from or to the wrong company in a group",
+   "why": "Rare: one thread and a payer-side idea.",
+   "items": [
+    "L1#36",
+    "L6#17"
+   ]
+  },
+  {
+   "id": "A50",
+   "name": "Poor rupee rates and new fees on receiving apps",
+   "why": "Already solved by switching provider; a pricing complaint.",
+   "items": [
+    "L3#25",
+    "L3#26",
+    "L3#37",
+    "L3#38"
+   ]
+  },
+  {
+   "id": "A52",
+   "name": "Matching per-customer account transfers to open payments",
+   "why": "Already solved natively by Airwallex Dedicated Account per Customer.",
+   "items": [
+    "L5#12"
+   ]
+  },
+  {
+   "id": "A54",
+   "name": "One tax document required per payment (Mexico)",
+   "why": "Rare: one Mexican issue from 2019.",
+   "items": [
+    "L7#39"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+id,verdict,items_for,items_against,items_nuance,plain_verdict
+H1,weakened,16,1,11,"Still weakened, and untested for Airwallex accounts. Payers verify any bank change (callbacks, signed letters, portal approvals, freezes up to two weeks). The one seller story (Revolut, 2018) says large customers accepted after days to months while small ones switched at once. Opening a new account for a customer is not documented to trigger a hold. What payers' banks show for Airwallex UK and EU accounts is unknown; in Australia a name mismatch warns but never blocks."
+H2,confirmed,14,3,17,"On SWIFT routes the usual gap is a small bank fee, but discounts, VAT recalculation, treasury rounding and withheld tax also cause short pays, and EU routes are protected by law."
+H3,confirmed,12,0,1,"Remittance detail often arrives separately as PDFs, emails or portals, though mostly for larger payers and cash-application desks."
+H4,weakened,9,1,2,"Money does get stuck or lost in transit, but no source shows how often a customer says 'we paid' with nothing arriving; the skeptic's view holds, though provider-side losses are better evidenced than it implies."
+H5,weakened,5,0,5,"Unidentified cash ages for years at public bodies and large firms, but small sellers with few customers usually know who paid."
+H6,weakened,11,0,2,Overpayments and double payments happen at low intensity; no seller describes a painful cross-border refund.
+H7,confirmed,15,1,1,"Currency mismatches force clearing accounts and manual FX journals across Xero, Zoho, Sage, QBO and ERPNext."
+H8,weakened,12,0,1,Platform payouts are a real matching pain but are already served by A2X-type tools and sit outside Airwallex's reach.
+H9,confirmed,21,0,7,"Holds and bounced incoming payments recur across Airwallex, Wise, Payoneer and Razorpay in 2026, but they are a small share of complaints: 13 of 171 Airwallex reviews, mostly later or large payments, not first payments (follow-up, 21 Oct)."
+H10,weakened,0,0,1,"Bookkeepers feel the pain, but the only price evidence points to a low ceiling."
+H11,confirmed,33,4,11,"Indian exporters struggle with open export entries, FIRC/FIRA proof and platform payouts after 1 Oct 2026, though part of it is launch teething."
+H12,weakened,4,0,0,"Chasing paid customers happens, but no source shows real relationship damage."
+H13,confirmed,7,0,2,"Correction to the skeptic: the items clearly show cash timing is unpredictable because of provider holds and reserves (L3#9-L3#12, L3#42), even though due-date forecasting itself is solved; the cause is mostly outside an agent's control."
+H14,weakened,4,0,1,"Mostly solved: Xero shipped credit-note matching in March 2026; what remains are bugs in other tools. (Changed from ""contradicted"" when building the page: 4 items support it and none contradict it.)"
+H15,weakened,3,0,0,Wrong-entity payments appear in one thread and a payer-side idea; there is no frequency data.
+H16,confirmed,10,0,1,"Payer names differ from customers often enough to hurt matching and trigger name-check holds, at low intensity."
+H17,confirmed,19,0,5,"Bank feeds cut references and leave payers blank, with current 2026 threads and Xero saying the bank controls it."
+H18,weakened,10,0,1,"Payer-side fraud is large, but seller-side lost receipts are old or one-off and declining."
+H19,weakened,2,1,0,No first-person story of a close delayed by unmatched receipts; the top reply blames bank-feed-first habits.
+H20,confirmed,10,1,2,Instalments and part-payments are badly handled in Xero and in Airwallex's all-or-nothing matching; one-payment-many-invoices is solved and retention is out of segment.
