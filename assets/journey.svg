@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" role="img" aria-labelledby="t d">
+<title id="t">One client, two months</title>
+<desc id="d">This month a €1,000 international wire loses €20 to a bank in the middle and arrives as €980. The agent matches it, explains the fee, notices it is the client's third short wire, and opens the client its own euro account on Airwallex. Next month the client pays by an ordinary local transfer, €1,000 arrives in full, and it is matched by the account it landed in.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1324"/><stop offset="1" stop-color="#0F1F3A"/></linearGradient>
+<linearGradient id="tealgrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+<pattern id="ledger" width="1280" height="28" patternUnits="userSpaceOnUse"><line x1="0" y1="27.5" x2="1280" y2="27.5" stroke="#16243F" stroke-width="1"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8C9DBA"/></marker>
+<marker id="arrowteal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2DD4BF"/></marker>
+</defs>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace}
+@keyframes a1{0%,12.00%{opacity:0}13.50%,30.00%{opacity:1}31.50%,100%{opacity:0}}.a1{animation:a1 18s linear infinite}
+@keyframes a2{0%,37.00%{opacity:0}38.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a2{animation:a2 18s linear infinite}
+@keyframes a3{0%,40.00%{opacity:0}41.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a3{animation:a3 18s linear infinite}
+@keyframes a4{0%,43.00%{opacity:0}44.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a4{animation:a4 18s linear infinite}
+@keyframes a5{0%,3.00%{opacity:0}4.00%,36.00%{opacity:1}37.00%,100%{opacity:0}}.a5{animation:a5 18s linear infinite}
+@keyframes a6{0%,3.00%{opacity:0}3.50%,14.00%{opacity:1}14.50%,100%{opacity:0}}.a6{animation:a6 18s linear infinite}
+@keyframes a7{0%,14.00%{opacity:0}14.50%,36.00%{opacity:1}36.50%,100%{opacity:0}}.a7{animation:a7 18s linear infinite}
+@keyframes a8{0%,47.00%{opacity:0}48.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a8{animation:a8 18s linear infinite}
+@keyframes a9{0%,52.00%{opacity:0}53.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a9{animation:a9 18s linear infinite}
+@keyframes a10{0%,52.00%{opacity:0}53.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a10{animation:a10 18s linear infinite}
+@keyframes a11{0%,52.00%{opacity:0}53.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a11{animation:a11 18s linear infinite}
+@keyframes a12{0%,50.00%{opacity:0}51.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a12{animation:a12 18s linear infinite}
+@keyframes a13{0%,52.00%{opacity:0}53.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a13{animation:a13 18s linear infinite}
+@keyframes a14{0%,52.00%{opacity:0}53.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a14{animation:a14 18s linear infinite}
+@keyframes a15{0%,57.00%{opacity:0}58.00%,84.00%{opacity:1}85.00%,100%{opacity:0}}.a15{animation:a15 18s linear infinite}
+@keyframes a16{0%,85.00%{opacity:0}86.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a16{animation:a16 18s linear infinite}
+@keyframes a17{0%,88.00%{opacity:0}89.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a17{animation:a17 18s linear infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="1280" height="600" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="600" rx="24" fill="url(#ledger)" opacity=".55"/>
+<text x="48" y="56" class="sans" font-size="30" font-weight="800" fill="#E7EEF8" text-anchor="start" >One client, two months</text>
+<text x="48" y="86" class="sans" font-size="17" font-weight="400" fill="#8C9DBA" text-anchor="start" >The agent doesn't just clean up a short payment. It removes the reason it was short.</text>
+<text x="48" y="132" class="mono" font-size="13" font-weight="700" fill="#F7776E" text-anchor="start" letter-spacing="1.3">THIS MONTH · INTERNATIONAL WIRE</text>
+<g class=""><rect x="48" y="150" width="230" height="66" rx="14" fill="#0E1A30" stroke="#22324F" stroke-opacity=".8"/><text x="64" y="178" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >Client's bank</text><text x="64" y="200" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >Germany · sends €1,000</text></g>
+<g class=""><rect x="356" y="150" width="230" height="66" rx="14" fill="#0E1A30" stroke="#F7776E" stroke-opacity=".8"/><text x="372" y="178" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >Bank in the middle</text><text x="372" y="200" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >keeps a fee, says nothing</text></g>
+<g class=""><rect x="664" y="150" width="230" height="66" rx="14" fill="#0E1A30" stroke="#60A5FA" stroke-opacity=".8"/><text x="680" y="178" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >Agency on Airwallex</text><text x="680" y="200" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >deposit arrives</text></g>
+<g class=""><rect x="980" y="150" width="230" height="66" rx="14" fill="#0E1A30" stroke="#A78BFA" stroke-opacity=".8"/><text x="996" y="178" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >Receive to Reconciled</text><text x="996" y="200" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >matches, explains, decides</text></g>
+<line x1="278" y1="183" x2="352" y2="183" stroke="#8C9DBA" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="586" y1="183" x2="660" y2="183" stroke="#8C9DBA" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="894" y1="183" x2="976" y2="183" stroke="#8C9DBA" stroke-width="2" marker-end="url(#arrow)"/>
+<g class="a1"><text x="471.0" y="148" class="mono" font-size="16" font-weight="700" fill="#F7776E" text-anchor="middle" >−€20 fee</text></g>
+<g class="a2"><text x="988" y="242" class="sans" font-size="14" font-weight="600" fill="#60A5FA" text-anchor="start" >✓ payer: Acme Digital</text></g>
+<g class="a3"><text x="988" y="264" class="sans" font-size="14" font-weight="600" fill="#F6B94C" text-anchor="start" >✓ INV-301 paid · €20 bank fee</text></g>
+<g class="a4"><text x="988" y="286" class="sans" font-size="14" font-weight="600" fill="#F7776E" text-anchor="start" >! Acme's 3rd short wire this quarter</text></g>
+<g class="a5"><g><circle r="27" fill="#F6B94C" fill-opacity=".18" stroke="#F6B94C" stroke-width="2" filter="url(#glow)"/><g class="a6"><text x="0" y="5" class="mono" font-size="13" font-weight="700" fill="#F6B94C" text-anchor="middle" >€1,000</text></g><g class="a7"><text x="0" y="5" class="mono" font-size="14" font-weight="700" fill="#F7776E" text-anchor="middle" >€980</text></g><animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.04;0.35;1" path="M 268,183 L 1000,183"/></g></g>
+<g class="a8"><path d="M 1095.0,308 C 1095.0,360 819.0,330 779.0,404" fill="none" stroke="#2DD4BF" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#arrowteal)"/><text x="755.0" y="332" class="sans" font-size="15" font-weight="700" fill="#2DD4BF" text-anchor="end" >fixes the cause: opens Acme's own euro account</text><text x="755.0" y="353" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="end" >and prepares the bank-change pack for Acme's accounts team</text></g>
+<g class="a9"><text x="48" y="392" class="mono" font-size="13" font-weight="700" fill="#2DD4BF" text-anchor="start" letter-spacing="1.3">NEXT MONTH · LOCAL TRANSFER INTO ACME'S OWN ACCOUNT</text></g>
+<g class="a10"><g class=""><rect x="48" y="410" width="230" height="66" rx="14" fill="#0E1A30" stroke="#22324F" stroke-opacity=".8"/><text x="64" y="438" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >Client's bank</text><text x="64" y="460" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >Germany · sends €1,000</text></g></g>
+<g class="a11"><rect x="356" y="410" width="230" height="66" rx="14" fill="none" stroke="#8C9DBA" stroke-opacity=".35" stroke-dasharray="5 6"/><text x="471.0" y="440" class="sans" font-size="15" font-weight="600" fill="#8C9DBA" text-anchor="middle" >no bank in the middle</text><text x="471.0" y="460" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="middle" >ordinary SEPA transfer</text></g>
+<g class="a12"><g class=""><rect x="664" y="410" width="230" height="66" rx="14" fill="#0E1A30" stroke="#2DD4BF" stroke-opacity=".8"/><text x="680" y="438" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >Acme's own account</text><text x="680" y="460" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >a local euro IBAN on Airwallex</text></g></g>
+<g class="a13"><g class=""><rect x="980" y="410" width="230" height="66" rx="14" fill="#0E1A30" stroke="#A78BFA" stroke-opacity=".8"/><text x="996" y="438" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >Receive to Reconciled</text><text x="996" y="460" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >knows who paid by the account</text></g></g>
+<g class="a14"><line x1="278" y1="443" x2="660" y2="443" stroke="#2DD4BF" stroke-width="2" marker-end="url(#arrowteal)"/><line x1="894" y1="443" x2="976" y2="443" stroke="#2DD4BF" stroke-width="2" marker-end="url(#arrowteal)"/></g>
+<g class="a15"><g><circle r="27" fill="#2DD4BF" fill-opacity=".18" stroke="#2DD4BF" stroke-width="2" filter="url(#glow)"/><text x="0" y="5" class="mono" font-size="13" font-weight="700" fill="#2DD4BF" text-anchor="middle" >€1,000</text><animateMotion dur="18s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.57;0.83;1" path="M 268,443 L 1000,443"/></g></g>
+<g class="a16"><text x="988" y="502" class="sans" font-size="14" font-weight="600" fill="#4ADE80" text-anchor="start" >✓ matched by account, in full</text></g>
+<g class="a17"><text x="988" y="524" class="sans" font-size="14" font-weight="600" fill="#4ADE80" text-anchor="start" >✓ no fee, no guesswork, no chasing</text></g>
+<text x="48" y="574" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >Illustration of the agent's behaviour. Clients' accounts teams verify new bank details first, so the agent runs the switch as a guided process.</text>
+</svg>

@@ -25,6 +25,8 @@ Airwallex's [Builder Guide](https://airwallexdev.com/agentic-banking-builder-gui
 
 ## Step by step
 
+<p align="center"><img src="../assets/journey.svg" width="100%" alt="This month a wire loses €20 on the way; the agent explains it and opens the client its own local account; next month €1,000 arrives in full."></p>
+
 1. **Notices the payment.** Airwallex notifies the agent the moment money lands, with the amount, the payer's name when the sending bank provides it, the reference, and the account it arrived in. [Airwallex integration](04-airwallex-integration.md) lists exactly what a deposit carries.
 2. **Works out who paid and for what.** The agent checks, in order: which account the money landed in, an exact invoice reference, then payer names it has learned ("ACME HOLDING BV" is our client Acme Digital, confirmed once by a person). Then it searches for which open invoices add up to the payment, within set tolerances for fees, tax and exchange rates. If two answers fit equally well, a person chooses.
 3. **Explains the gap.** For example: €1,000 − €50 credit for late delivery − €20 bank fee = €930. If the client sent an email or PDF, the agent reads it and links each figure to the words it came from.

@@ -10,6 +10,12 @@ Receive to Reconciled is a service that runs on its own, all day, connected to a
 
 ```mermaid
 flowchart LR
+    classDef outside fill:#1F2937,stroke:#8C9DBA,color:#F3F4F6
+    classDef awx fill:#1E3A8A,stroke:#60A5FA,color:#F8FAFC
+    classDef engine fill:#134E4A,stroke:#2DD4BF,color:#F0FDFA
+    classDef reader fill:#4C1D95,stroke:#A78BFA,color:#F5F3FF
+    classDef person fill:#78350F,stroke:#F6B94C,color:#FFFBEB
+    classDef good fill:#14532D,stroke:#4ADE80,color:#F0FDF4
     subgraph Outside["Outside world"]
         Client["Client's bank"]
         Mail["Client emails and PDFs"]
@@ -44,6 +50,14 @@ flowchart LR
     Policy --> Cash --> FX --> Pay
     Bank --> India --> Ledger
     India -->|draft note for the bank| People
+    class Client,Mail,Bank outside
+    class GA,Dep,FX,Pay awx
+    class Conn,Ledger,Match,Gap,Policy,Fix,Cash,India engine
+    class Reader reader
+    class People person
+    style R2R fill:#0F1F3A,stroke:#2DD4BF,stroke-width:2px,color:#E7EEF8
+    style AWX fill:#0F1F3A,stroke:#60A5FA,color:#E7EEF8
+    style Outside fill:#111827,stroke:#8C9DBA,color:#E7EEF8
 ```
 
 ## The parts
@@ -136,6 +150,12 @@ stateDiagram-v2
 
 ```mermaid
 flowchart TD
+    classDef outside fill:#1F2937,stroke:#8C9DBA,color:#F3F4F6
+    classDef awx fill:#1E3A8A,stroke:#60A5FA,color:#F8FAFC
+    classDef engine fill:#134E4A,stroke:#2DD4BF,color:#F0FDFA
+    classDef reader fill:#4C1D95,stroke:#A78BFA,color:#F5F3FF
+    classDef person fill:#78350F,stroke:#F6B94C,color:#FFFBEB
+    classDef good fill:#14532D,stroke:#4ADE80,color:#F0FDF4
     A["Bills due in a currency, e.g. EUR 4,000 on Friday"] --> B["Money certain in that currency: matched deposits plus balance"]
     B --> C{"Enough?"}
     C -->|yes| D["Keep it. Convert nothing."]
@@ -147,6 +167,11 @@ flowchart TD
     I -->|no| J["Convert, pay the supplier, log it"]
     I -->|yes| K["Owner approves, seeing amount, rate and reasons"]
     K --> J
+    class A,B,E outside
+    class C,F,I engine
+    class D,G,J good
+    class H awx
+    class K person
 ```
 
 ## Safety by design

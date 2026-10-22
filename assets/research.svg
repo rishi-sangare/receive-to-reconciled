@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="470" viewBox="0 0 1280 470" role="img" aria-labelledby="t d">
+<title id="t">Built on evidence</title>
+<desc id="d">35 ideas compared and 1 chosen; 57 public repositories read, 44 of them hackathon entries; 476 sourced items tested the claims behind two finalists, 385 re-opened and confirmed; 429 sourced items on daily pain grouped into 56 problems, 7 of which we build first.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A1324"/><stop offset="1" stop-color="#0F1F3A"/></linearGradient>
+<linearGradient id="tealgrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+<pattern id="ledger" width="1280" height="28" patternUnits="userSpaceOnUse"><line x1="0" y1="27.5" x2="1280" y2="27.5" stroke="#16243F" stroke-width="1"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8C9DBA"/></marker>
+<marker id="arrowteal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2DD4BF"/></marker>
+</defs>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace}
+@keyframes a1{0%,2.00%{opacity:0}3.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a1{animation:a1 13s linear infinite}
+@keyframes a2{0%,4.00%{opacity:0}4.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a2{animation:a2 13s linear infinite}
+@keyframes a3{0%,4.25%{opacity:0}5.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a3{animation:a3 13s linear infinite}
+@keyframes a4{0%,4.50%{opacity:0}5.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a4{animation:a4 13s linear infinite}
+@keyframes a5{0%,4.75%{opacity:0}5.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a5{animation:a5 13s linear infinite}
+@keyframes a6{0%,5.00%{opacity:0}5.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a6{animation:a6 13s linear infinite}
+@keyframes a7{0%,5.25%{opacity:0}6.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a7{animation:a7 13s linear infinite}
+@keyframes a8{0%,5.50%{opacity:0}6.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a8{animation:a8 13s linear infinite}
+@keyframes a9{0%,5.75%{opacity:0}6.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a9{animation:a9 13s linear infinite}
+@keyframes a10{0%,6.00%{opacity:0}6.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a10{animation:a10 13s linear infinite}
+@keyframes a11{0%,6.25%{opacity:0}7.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a11{animation:a11 13s linear infinite}
+@keyframes a12{0%,6.50%{opacity:0}7.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a12{animation:a12 13s linear infinite}
+@keyframes a13{0%,6.75%{opacity:0}7.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a13{animation:a13 13s linear infinite}
+@keyframes a14{0%,7.00%{opacity:0}7.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a14{animation:a14 13s linear infinite}
+@keyframes a15{0%,7.25%{opacity:0}8.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a15{animation:a15 13s linear infinite}
+@keyframes a16{0%,7.50%{opacity:0}8.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a16{animation:a16 13s linear infinite}
+@keyframes a17{0%,7.75%{opacity:0}8.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a17{animation:a17 13s linear infinite}
+@keyframes a18{0%,8.00%{opacity:0}8.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a18{animation:a18 13s linear infinite}
+@keyframes a19{0%,8.25%{opacity:0}9.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a19{animation:a19 13s linear infinite}
+@keyframes a20{0%,8.50%{opacity:0}9.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a20{animation:a20 13s linear infinite}
+@keyframes a21{0%,8.75%{opacity:0}9.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a21{animation:a21 13s linear infinite}
+@keyframes a22{0%,9.00%{opacity:0}9.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a22{animation:a22 13s linear infinite}
+@keyframes a23{0%,9.25%{opacity:0}10.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a23{animation:a23 13s linear infinite}
+@keyframes a24{0%,9.50%{opacity:0}10.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a24{animation:a24 13s linear infinite}
+@keyframes a25{0%,9.75%{opacity:0}10.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a25{animation:a25 13s linear infinite}
+@keyframes a26{0%,10.00%{opacity:0}10.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a26{animation:a26 13s linear infinite}
+@keyframes a27{0%,10.25%{opacity:0}11.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a27{animation:a27 13s linear infinite}
+@keyframes a28{0%,10.50%{opacity:0}11.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a28{animation:a28 13s linear infinite}
+@keyframes a29{0%,10.75%{opacity:0}11.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a29{animation:a29 13s linear infinite}
+@keyframes a30{0%,11.00%{opacity:0}11.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a30{animation:a30 13s linear infinite}
+@keyframes a31{0%,11.25%{opacity:0}12.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a31{animation:a31 13s linear infinite}
+@keyframes a32{0%,11.50%{opacity:0}12.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a32{animation:a32 13s linear infinite}
+@keyframes a33{0%,11.75%{opacity:0}12.55%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a33{animation:a33 13s linear infinite}
+@keyframes a34{0%,12.00%{opacity:0}12.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a34{animation:a34 13s linear infinite}
+@keyframes a35{0%,12.25%{opacity:0}13.05%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a35{animation:a35 13s linear infinite}
+@keyframes a36{0%,12.50%{opacity:0}13.30%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a36{animation:a36 13s linear infinite}
+@keyframes a37{0%,16.00%{opacity:0}17.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a37{animation:a37 13s linear infinite}
+@keyframes a38{0%,18.00%{opacity:0}19.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a38{animation:a38 13s linear infinite}
+@keyframes a39{0%,20.00%{opacity:0}20.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a39{animation:a39 13s linear infinite}
+@keyframes a40{0%,20.20%{opacity:0}21.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a40{animation:a40 13s linear infinite}
+@keyframes a41{0%,20.40%{opacity:0}21.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a41{animation:a41 13s linear infinite}
+@keyframes a42{0%,20.60%{opacity:0}21.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a42{animation:a42 13s linear infinite}
+@keyframes a43{0%,20.80%{opacity:0}21.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a43{animation:a43 13s linear infinite}
+@keyframes a44{0%,21.00%{opacity:0}21.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a44{animation:a44 13s linear infinite}
+@keyframes a45{0%,21.20%{opacity:0}22.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a45{animation:a45 13s linear infinite}
+@keyframes a46{0%,21.40%{opacity:0}22.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a46{animation:a46 13s linear infinite}
+@keyframes a47{0%,21.60%{opacity:0}22.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a47{animation:a47 13s linear infinite}
+@keyframes a48{0%,21.80%{opacity:0}22.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a48{animation:a48 13s linear infinite}
+@keyframes a49{0%,22.00%{opacity:0}22.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a49{animation:a49 13s linear infinite}
+@keyframes a50{0%,22.20%{opacity:0}23.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a50{animation:a50 13s linear infinite}
+@keyframes a51{0%,22.40%{opacity:0}23.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a51{animation:a51 13s linear infinite}
+@keyframes a52{0%,22.60%{opacity:0}23.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a52{animation:a52 13s linear infinite}
+@keyframes a53{0%,22.80%{opacity:0}23.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a53{animation:a53 13s linear infinite}
+@keyframes a54{0%,23.00%{opacity:0}23.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a54{animation:a54 13s linear infinite}
+@keyframes a55{0%,23.20%{opacity:0}24.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a55{animation:a55 13s linear infinite}
+@keyframes a56{0%,23.40%{opacity:0}24.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a56{animation:a56 13s linear infinite}
+@keyframes a57{0%,23.60%{opacity:0}24.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a57{animation:a57 13s linear infinite}
+@keyframes a58{0%,23.80%{opacity:0}24.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a58{animation:a58 13s linear infinite}
+@keyframes a59{0%,24.00%{opacity:0}24.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a59{animation:a59 13s linear infinite}
+@keyframes a60{0%,24.20%{opacity:0}25.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a60{animation:a60 13s linear infinite}
+@keyframes a61{0%,24.40%{opacity:0}25.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a61{animation:a61 13s linear infinite}
+@keyframes a62{0%,24.60%{opacity:0}25.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a62{animation:a62 13s linear infinite}
+@keyframes a63{0%,24.80%{opacity:0}25.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a63{animation:a63 13s linear infinite}
+@keyframes a64{0%,25.00%{opacity:0}25.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a64{animation:a64 13s linear infinite}
+@keyframes a65{0%,25.20%{opacity:0}26.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a65{animation:a65 13s linear infinite}
+@keyframes a66{0%,25.40%{opacity:0}26.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a66{animation:a66 13s linear infinite}
+@keyframes a67{0%,25.60%{opacity:0}26.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a67{animation:a67 13s linear infinite}
+@keyframes a68{0%,25.80%{opacity:0}26.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a68{animation:a68 13s linear infinite}
+@keyframes a69{0%,26.00%{opacity:0}26.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a69{animation:a69 13s linear infinite}
+@keyframes a70{0%,26.20%{opacity:0}27.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a70{animation:a70 13s linear infinite}
+@keyframes a71{0%,26.40%{opacity:0}27.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a71{animation:a71 13s linear infinite}
+@keyframes a72{0%,26.60%{opacity:0}27.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a72{animation:a72 13s linear infinite}
+@keyframes a73{0%,26.80%{opacity:0}27.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a73{animation:a73 13s linear infinite}
+@keyframes a74{0%,27.00%{opacity:0}27.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a74{animation:a74 13s linear infinite}
+@keyframes a75{0%,27.20%{opacity:0}28.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a75{animation:a75 13s linear infinite}
+@keyframes a76{0%,27.40%{opacity:0}28.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a76{animation:a76 13s linear infinite}
+@keyframes a77{0%,27.60%{opacity:0}28.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a77{animation:a77 13s linear infinite}
+@keyframes a78{0%,27.80%{opacity:0}28.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a78{animation:a78 13s linear infinite}
+@keyframes a79{0%,28.00%{opacity:0}28.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a79{animation:a79 13s linear infinite}
+@keyframes a80{0%,28.20%{opacity:0}29.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a80{animation:a80 13s linear infinite}
+@keyframes a81{0%,28.40%{opacity:0}29.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a81{animation:a81 13s linear infinite}
+@keyframes a82{0%,28.60%{opacity:0}29.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a82{animation:a82 13s linear infinite}
+@keyframes a83{0%,28.80%{opacity:0}29.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a83{animation:a83 13s linear infinite}
+@keyframes a84{0%,29.00%{opacity:0}29.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a84{animation:a84 13s linear infinite}
+@keyframes a85{0%,29.20%{opacity:0}30.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a85{animation:a85 13s linear infinite}
+@keyframes a86{0%,29.40%{opacity:0}30.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a86{animation:a86 13s linear infinite}
+@keyframes a87{0%,29.60%{opacity:0}30.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a87{animation:a87 13s linear infinite}
+@keyframes a88{0%,29.80%{opacity:0}30.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a88{animation:a88 13s linear infinite}
+@keyframes a89{0%,30.00%{opacity:0}30.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a89{animation:a89 13s linear infinite}
+@keyframes a90{0%,30.20%{opacity:0}31.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a90{animation:a90 13s linear infinite}
+@keyframes a91{0%,30.40%{opacity:0}31.20%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a91{animation:a91 13s linear infinite}
+@keyframes a92{0%,30.60%{opacity:0}31.40%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a92{animation:a92 13s linear infinite}
+@keyframes a93{0%,30.80%{opacity:0}31.60%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a93{animation:a93 13s linear infinite}
+@keyframes a94{0%,31.00%{opacity:0}31.80%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a94{animation:a94 13s linear infinite}
+@keyframes a95{0%,31.20%{opacity:0}32.00%,96.00%{opacity:1}96.80%,100%{opacity:0}}.a95{animation:a95 13s linear infinite}
+@keyframes a96{0%,32.00%{opacity:0}33.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a96{animation:a96 13s linear infinite}
+@keyframes a97{0%,34.00%{opacity:0}35.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a97{animation:a97 13s linear infinite}
+@keyframes a98{0%,36.00%{opacity:0}37.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a98{animation:a98 13s linear infinite}
+@keyframes g99{0%,38.00%{transform:scaleX(0)}52.00%,96.00%{transform:scaleX(1)}98.00%,100%{transform:scaleX(0)}}.g99{transform-box:fill-box;transform-origin:left center;animation:g99 13s cubic-bezier(.2,.7,.2,1) infinite}
+@keyframes a100{0%,50.00%{opacity:0}51.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a100{animation:a100 13s linear infinite}
+@keyframes a101{0%,54.00%{opacity:0}55.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a101{animation:a101 13s linear infinite}
+@keyframes a102{0%,56.00%{opacity:0}57.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a102{animation:a102 13s linear infinite}
+@keyframes g103{0%,58.00%{transform:scaleX(0)}64.00%,96.00%{transform:scaleX(1)}98.00%,100%{transform:scaleX(0)}}.g103{transform-box:fill-box;transform-origin:left center;animation:g103 13s cubic-bezier(.2,.7,.2,1) infinite}
+@keyframes a104{0%,62.00%{opacity:0}63.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a104{animation:a104 13s linear infinite}
+@keyframes g105{0%,64.00%{transform:scaleX(0)}70.00%,96.00%{transform:scaleX(1)}98.00%,100%{transform:scaleX(0)}}.g105{transform-box:fill-box;transform-origin:left center;animation:g105 13s cubic-bezier(.2,.7,.2,1) infinite}
+@keyframes a106{0%,68.00%{opacity:0}69.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a106{animation:a106 13s linear infinite}
+@keyframes g107{0%,70.00%{transform:scaleX(0)}76.00%,96.00%{transform:scaleX(1)}98.00%,100%{transform:scaleX(0)}}.g107{transform-box:fill-box;transform-origin:left center;animation:g107 13s cubic-bezier(.2,.7,.2,1) infinite}
+@keyframes a108{0%,74.00%{opacity:0}75.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a108{animation:a108 13s linear infinite}
+@keyframes a109{0%,76.00%{opacity:0}77.50%,96.00%{opacity:1}97.50%,100%{opacity:0}}.a109{animation:a109 13s linear infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="1280" height="470" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="470" rx="24" fill="url(#ledger)" opacity=".55"/>
+<text x="48" y="56" class="sans" font-size="30" font-weight="800" fill="#E7EEF8" text-anchor="start" >Built on evidence, with every number on the record</text>
+<text x="48" y="86" class="sans" font-size="17" font-weight="400" fill="#8C9DBA" text-anchor="start" >Counted live from the CSV files in research/data. Recount them yourself: python scripts/check_numbers.py</text>
+<g class="a1"><rect x="48" y="120" width="280" height="300" rx="18" fill="#0E1A30" stroke="#22324F"/><text x="72" y="186" class="mono" font-size="54" font-weight="800" fill="#60A5FA" text-anchor="start" >35</text><text x="72" y="218" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >ideas compared</text><text x="72" y="240" class="sans" font-size="14" font-weight="400" fill="#8C9DBA" text-anchor="start" >before choosing this one</text></g>
+<circle class="a2" cx="82" cy="280" r="8" fill="#2DD4BF" filter="url(#glow)"/>
+<circle class="a3" cx="116" cy="280" r="6" fill="#22324F"/>
+<circle class="a4" cx="150" cy="280" r="6" fill="#22324F"/>
+<circle class="a5" cx="184" cy="280" r="6" fill="#22324F"/>
+<circle class="a6" cx="218" cy="280" r="6" fill="#22324F"/>
+<circle class="a7" cx="252" cy="280" r="6" fill="#22324F"/>
+<circle class="a8" cx="286" cy="280" r="6" fill="#22324F"/>
+<circle class="a9" cx="82" cy="306" r="6" fill="#22324F"/>
+<circle class="a10" cx="116" cy="306" r="6" fill="#22324F"/>
+<circle class="a11" cx="150" cy="306" r="6" fill="#22324F"/>
+<circle class="a12" cx="184" cy="306" r="6" fill="#22324F"/>
+<circle class="a13" cx="218" cy="306" r="6" fill="#22324F"/>
+<circle class="a14" cx="252" cy="306" r="6" fill="#22324F"/>
+<circle class="a15" cx="286" cy="306" r="6" fill="#22324F"/>
+<circle class="a16" cx="82" cy="332" r="6" fill="#22324F"/>
+<circle class="a17" cx="116" cy="332" r="6" fill="#22324F"/>
+<circle class="a18" cx="150" cy="332" r="6" fill="#22324F"/>
+<circle class="a19" cx="184" cy="332" r="6" fill="#22324F"/>
+<circle class="a20" cx="218" cy="332" r="6" fill="#22324F"/>
+<circle class="a21" cx="252" cy="332" r="6" fill="#22324F"/>
+<circle class="a22" cx="286" cy="332" r="6" fill="#22324F"/>
+<circle class="a23" cx="82" cy="358" r="6" fill="#22324F"/>
+<circle class="a24" cx="116" cy="358" r="6" fill="#22324F"/>
+<circle class="a25" cx="150" cy="358" r="6" fill="#22324F"/>
+<circle class="a26" cx="184" cy="358" r="6" fill="#22324F"/>
+<circle class="a27" cx="218" cy="358" r="6" fill="#22324F"/>
+<circle class="a28" cx="252" cy="358" r="6" fill="#22324F"/>
+<circle class="a29" cx="286" cy="358" r="6" fill="#22324F"/>
+<circle class="a30" cx="82" cy="384" r="6" fill="#22324F"/>
+<circle class="a31" cx="116" cy="384" r="6" fill="#22324F"/>
+<circle class="a32" cx="150" cy="384" r="6" fill="#22324F"/>
+<circle class="a33" cx="184" cy="384" r="6" fill="#22324F"/>
+<circle class="a34" cx="218" cy="384" r="6" fill="#22324F"/>
+<circle class="a35" cx="252" cy="384" r="6" fill="#22324F"/>
+<circle class="a36" cx="286" cy="384" r="6" fill="#22324F"/>
+<g class="a37"><text x="72" y="406" class="sans" font-size="13" font-weight="700" fill="#2DD4BF" text-anchor="start" >→ 1 chosen: Receive to Reconciled</text></g>
+<g class="a38"><rect x="348" y="120" width="280" height="300" rx="18" fill="#0E1A30" stroke="#22324F"/><text x="372" y="186" class="mono" font-size="54" font-weight="800" fill="#A78BFA" text-anchor="start" >57</text><text x="372" y="218" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >public repositories read</text><text x="372" y="240" class="sans" font-size="14" font-weight="400" fill="#8C9DBA" text-anchor="start" >44 of them hackathon entries</text></g>
+<rect class="a39" x="374" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a40" x="393" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a41" x="412" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a42" x="431" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a43" x="450" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a44" x="469" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a45" x="488" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a46" x="507" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a47" x="526" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a48" x="545" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a49" x="564" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a50" x="583" y="270" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a51" x="374" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a52" x="393" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a53" x="412" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a54" x="431" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a55" x="450" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a56" x="469" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a57" x="488" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a58" x="507" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a59" x="526" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a60" x="545" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a61" x="564" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a62" x="583" y="289" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a63" x="374" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a64" x="393" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a65" x="412" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a66" x="431" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a67" x="450" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a68" x="469" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a69" x="488" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a70" x="507" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a71" x="526" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a72" x="545" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a73" x="564" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a74" x="583" y="308" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a75" x="374" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a76" x="393" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a77" x="412" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a78" x="431" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a79" x="450" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a80" x="469" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a81" x="488" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a82" x="507" y="327" width="13" height="13" rx="3" fill="#A78BFA" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a83" x="526" y="327" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a84" x="545" y="327" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a85" x="564" y="327" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a86" x="583" y="327" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a87" x="374" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a88" x="393" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a89" x="412" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a90" x="431" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a91" x="450" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a92" x="469" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a93" x="488" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a94" x="507" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect class="a95" x="526" y="346" width="13" height="13" rx="3" fill="none" fill-opacity=".8" stroke="#A78BFA" stroke-opacity=".6"/>
+<g class="a96"><text x="372" y="406" class="sans" font-size="13" font-weight="700" fill="#A78BFA" text-anchor="start" >to avoid building what others are</text></g>
+<g class="a97"><rect x="648" y="120" width="280" height="300" rx="18" fill="#0E1A30" stroke="#22324F"/><text x="672" y="186" class="mono" font-size="54" font-weight="800" fill="#F6B94C" text-anchor="start" >476</text><text x="672" y="218" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >sourced items tested</text><text x="672" y="240" class="sans" font-size="14" font-weight="400" fill="#8C9DBA" text-anchor="start" >the claims behind 2 finalists</text></g>
+<g class="a98"><rect x="672" y="290" width="232" height="22" rx="6" fill="#22324F"/></g>
+<rect class="g99" x="672" y="290" width="187.6" height="22" rx="6" fill="#4ADE80" fill-opacity=".85"/>
+<g class="a100"><text x="672" y="340" class="mono" font-size="15" font-weight="700" fill="#4ADE80" text-anchor="start" >385 re-opened and confirmed</text><text x="672" y="362" class="sans" font-size="13" font-weight="400" fill="#8C9DBA" text-anchor="start" >by a separate checking pass</text></g>
+<g class="a101"><text x="672" y="406" class="sans" font-size="13" font-weight="700" fill="#F6B94C" text-anchor="start" >quote, link and date on every row</text></g>
+<g class="a102"><rect x="948" y="120" width="280" height="300" rx="18" fill="#0E1A30" stroke="#22324F"/><text x="972" y="186" class="mono" font-size="54" font-weight="800" fill="#2DD4BF" text-anchor="start" >429</text><text x="972" y="218" class="sans" font-size="16" font-weight="700" fill="#E7EEF8" text-anchor="start" >sourced items on daily pain</text><text x="972" y="240" class="sans" font-size="14" font-weight="400" fill="#8C9DBA" text-anchor="start" >from invoice sent to books closed</text></g>
+<rect class="g103" x="972" y="270" width="136.0" height="26" rx="6" fill="#2DD4BF" fill-opacity=".8"/>
+<g class="a104"><text x="1118.0" y="288" class="mono" font-size="13" font-weight="600" fill="#E7EEF8" text-anchor="start" >429 items</text></g>
+<rect class="g105" x="972" y="310" width="49.1" height="26" rx="6" fill="#60A5FA" fill-opacity=".8"/>
+<g class="a106"><text x="1031.1365064936067" y="328" class="mono" font-size="13" font-weight="600" fill="#E7EEF8" text-anchor="start" >56 distinct problems</text></g>
+<rect class="g107" x="972" y="350" width="26.0" height="26" rx="6" fill="#4ADE80" fill-opacity=".8"/>
+<g class="a108"><text x="1008" y="368" class="mono" font-size="13" font-weight="600" fill="#E7EEF8" text-anchor="start" >7 we build first</text></g>
+<g class="a109"><text x="972" y="406" class="sans" font-size="13" font-weight="700" fill="#2DD4BF" text-anchor="start" >scored, then argued against</text></g>
+</svg>

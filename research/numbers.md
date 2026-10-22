@@ -46,6 +46,13 @@ If you write a new number in the README, the docs or a submission, add a row her
 | `hypotheses_confirmed` | **9** | Confirmed by the evidence | same file |
 | `hypotheses_weakened` | **11** | Weakened: real but smaller, rarer, partly solved, or thinly evidenced | same file |
 
+## About this repository
+
+| Key | Number | What it means | Record |
+|---|---|---|---|
+| `sources_cited` | **61** | Distinct sources cited across the README, the docs and our submission, each with what it says and how we use it | [citations.md](citations.md) |
+| `glossary_terms` | **110** | Finance, banking and technical terms explained in plain words | [09-glossary.md](../docs/09-glossary.md) |
+
 ## Numbers in our examples
 
 The worked examples (the €930 payment, the example week) are made up to show how the agent behaves. They are labelled as examples wherever they appear, and their arithmetic is shown in full.

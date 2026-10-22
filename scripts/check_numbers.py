@@ -50,6 +50,8 @@ actual = {
     'hypotheses_confirmed': hc['confirmed'],
     'hypotheses_weakened': hc['weakened'],
     'veteran_insights': sum(bool(r['veteran_insight']) for r in items),
+    'sources_cited': len(re.findall(r'^### C\d+', (root / 'research' / 'citations.md').read_text(encoding='utf-8'), re.M)),
+    'glossary_terms': len(re.findall(r'^\*\*[^*]+\*\*:', (root / 'docs' / '09-glossary.md').read_text(encoding='utf-8'), re.M)),
 }
 
 register = (root / 'research' / 'numbers.md').read_text(encoding='utf-8')

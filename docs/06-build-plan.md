@@ -13,6 +13,8 @@ We'll assign names on day 1. Both builders review each other's work every evenin
 
 ## At a glance
 
+<p align="center"><img src="../assets/timeline.svg" width="100%" alt="Three weeks: the whole product in week 1, widen and test in week 2, refine and present in week 3."></p>
+
 | Week | Goal | By the end of the week, you can see… |
 |---|---|---|
 | **Week 1 (Sun 25 – Sat 31 Oct)** | The whole product, end to end | A messy payment arrives in the Airwallex sandbox. It is matched and its gap explained. An unclear case reaches a person. A client is given its own account. Euros are kept or converted, and a supplier is paid. |

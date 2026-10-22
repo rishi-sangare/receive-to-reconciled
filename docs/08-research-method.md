@@ -1,5 +1,7 @@
 # How we researched this
 
+<p align="center"><img src="../assets/research.svg" width="100%" alt="35 ideas compared, 57 repositories read, 476 items testing two finalists with 385 confirmed, 429 items mapped into 56 problems with 7 built first."></p>
+
 Between 12 and 22 October 2026 we researched the problem before designing anything. This page explains what we did, in what order, how we checked it, and where it falls short. Every number here is in the [numbers register](../research/numbers.md), with the file that backs it.
 
 ## Our rules for evidence

@@ -6,6 +6,8 @@ Small businesses that sell abroad get paid by bank transfer. The money often arr
 
 ## One payment, step by step *(a made-up example)*
 
+<p align="center"><img src="../assets/gap.svg" width="100%" alt="A €1,000 invoice splits into €930 received, a €50 credit and a €20 bank fee."></p>
+
 A small design agency in Mumbai runs its business through a company in Singapore with an Airwallex account. It sends a client in Germany two invoices, for €600 and €400. One payment arrives: **€930** from "ACME HOLDING BV", reference "MARCH".
 
 | Question | What's true | Why it's hard |
